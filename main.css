@@ -1,0 +1,12 @@
+#gameScreen {
+  border: 1px solid black;
+}
+
+img {
+  display: none;
+}
+
+.tennis-ball {
+  height: 25px;
+  width: 25px;
+}
