@@ -66,7 +66,7 @@ class Ball {
   }
 
   reset() {
-    this.speed = { x: 5, y: -2 };
+    this.speed = { x: 7.5, y: -2 };
     this.position = { x: 10, y: 550 };
   }
 }
