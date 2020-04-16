@@ -2,7 +2,6 @@ import Brick from "./brick.js";
 
 export const buildLevel = (game, level) => {
   let bricks = [];
-  console.log(level)
 
   level.forEach((row, rowIdx) => {
     row.forEach((brick, brickIdx) => {
@@ -34,6 +33,19 @@ export const level2 = [
 ];
 
 export const level3 = [
+  [1, 1, 1, 1, 0, 0, 0, 0, 0, 1],
+  [0, 1, 0, 1, 0, 1, 0, 1, 0, 1],
+  [0, 1, 0, 1, 0, 1, 0, 1, 0, 1],
+  [0, 1, 0, 1, 0, 1, 0, 1, 0, 1],
+  [0, 1, 0, 1, 0, 1, 0, 1, 0, 1],
+  [0, 1, 0, 1, 0, 1, 0, 1, 0, 1],
+  [0, 1, 0, 1, 0, 1, 0, 1, 0, 1],
+  [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+  [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+  [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+];
+
+export const level4 = [
   [1, 1, 1, 1, 0, 0, 0, 0, 0, 1],
   [0, 1, 0, 1, 0, 1, 0, 1, 0, 1],
   [0, 1, 0, 1, 0, 1, 0, 1, 0, 1],

@@ -31,7 +31,6 @@ class Ball {
   }
 
   update(deltaTime) {
-    console.log(this.game.paddle.position.x);
     const {
       game,
       gameWidth,
